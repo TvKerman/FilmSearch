@@ -1,0 +1,70 @@
+.Film {
+    position: relative;
+
+    width: 70%;
+    top: 40px;
+    left: 15%;
+    color: #f3f4f6;
+    background: #3d4647;
+
+    border-radius: 30px;
+}
+
+.FilmContainer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1em;
+}
+
+.FilmPoster {
+    width: 30%;
+    overflow: visible;
+    position: relative;
+}
+
+.FilmInfo {
+    width: calc(70% - 1em);
+    margin-left: 1em;
+}
+
+.FilmInfoContainer {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+    background: #243345;
+    border-radius: 0px 1em 1em 0px;
+
+}
+
+.FilmTitle {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+.FilmBaseInfoList {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    margin-bottom: 1em;
+}
+
+.FilmBaseInfoItem {
+    font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    flex: 1 1 auto;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.FilmDescription {
+    font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    flex: 1 1 auto;
+    font-size: 1rem;
+    line-height: 1.5;
+}

@@ -1,0 +1,16 @@
+.App {
+    font-family: Arial,Helvetica,"Arial Unicode MS",sans-serif;
+}
+
+.TitleStyle {
+    position: relative;
+    z-index: 105;
+    display: flex;
+    flex-basis: 990px;
+    justify-content: center;
+    align-items: center;
+    max-width: 918px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 32px;
+}

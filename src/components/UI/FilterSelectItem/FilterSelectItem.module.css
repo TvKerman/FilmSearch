@@ -1,0 +1,65 @@
+.FilterSelectItem {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 4px 13px 4px 23px;
+    font-size: 18px;
+    color: #c0c4c8;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color .3s ease;
+    user-select: none;
+}
+
+.FilterSelectItemCheckBox {
+    position: relative;
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+
+    background-color: rgba(3,12,21,.4);
+    background-position: 12px center;
+    background-repeat: no-repeat;
+    font: 400 16px/1.5 "Fira Sans",sans-serif,sans-serif;
+    color: #fff;
+    border: 2px solid rgba(0,0,0,0);
+    border-radius: 4px;
+    outline: 1px solid rgba(0,0,0,0);
+
+    margin: -1px 10px 0 0;
+}
+
+.FilterSelectItemCheckBox:checked::after {
+    opacity: 1;
+}
+
+.FilterSelectItemCheckBox::after {
+    display: block;
+    content: "";
+    width: 18px;
+    height: 17px;
+    background-image: url("https://embed.gaijin.net/assets/build/c2cb7621a89303c506b9.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    fill: #90a4ae;
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+
+.Flag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 24px;
+    margin-top: -3px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+
